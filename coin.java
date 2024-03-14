@@ -14,6 +14,6 @@ public class coin {
     }
 
     public void FlipCoin(){
-        value = (rand.nextInt(2) == 0) ? false : true;
+        value = rand.nextBoolean();
     }
 }
